@@ -6,6 +6,7 @@ import org.w3c.dom.Text;
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "report")
 public class Report {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
